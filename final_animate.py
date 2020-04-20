@@ -17,7 +17,7 @@ ys = []
 
 
 def animate(i):
-	url = 'countries_medal_data.csv'
+	url = 'countries_medals.csv'
 	data = pd.read_csv(url)
 	df = pd.DataFrame(data[['Year', 'Medals']].values)
 	
